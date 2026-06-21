@@ -1,0 +1,7 @@
+{
+  "language": "pt-BR",
+  "game": "Welcome to the Game 2",
+  "source": "Assembly-CSharp.dll — literais de string (#US / ldstr)",
+  "note": "Preencha o campo 'traducao' de cada entrada. 'fonte' = texto original em inglês. Gerado/atualizado por tools/extract_dll.py (ou pelo tool C# em tools/dll-tool).",
+  "entries": []
+}
