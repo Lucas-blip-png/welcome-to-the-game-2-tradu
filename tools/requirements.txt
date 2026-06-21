@@ -1,0 +1,7 @@
+# Ferramentas Python para extrair/injetar os textos do Welcome to the Game 2.
+# Instale com:  pip install -r tools/requirements.txt
+
+UnityPy>=1.20,<2.0     # ler/gravar arquivos *.assets (UI Text, TextMeshPro, TextAsset, fontes)
+dnfile>=0.15           # ler literais de string (#US) do Assembly-CSharp.dll (sem precisar de .NET)
+pefile>=2023.2.7       # análise do PE/.NET (dependência usada na leitura da DLL)
+fonttools>=4.40        # checar cobertura de glifos (acentos) nas fontes TTF

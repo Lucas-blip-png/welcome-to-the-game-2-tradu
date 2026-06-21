@@ -1,0 +1,7 @@
+{
+  "language": "pt-BR",
+  "game": "Welcome to the Game 2",
+  "source": "*.assets (UnityPy) — UI Text, TextMeshPro, TextAsset",
+  "note": "Preencha o campo 'traducao' de cada entrada. 'fonte' = texto original em inglês. Gerado/atualizado por tools/extract_assets.py.",
+  "entries": []
+}

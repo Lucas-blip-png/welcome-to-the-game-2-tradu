@@ -1,0 +1,41 @@
+# === Arquivos ORIGINAIS do jogo — NÃO versionar (copyright) ===
+# Coloque aqui os arquivos enviados (Assembly-CSharp.dll, *.assets, etc.)
+game_files/*
+!game_files/.gitkeep
+!game_files/LEIA-ME.md
+
+# === Saídas geradas (arquivos do jogo já modificados) ===
+build/*
+!build/.gitkeep
+
+# === Blobs do jogo, onde quer que apareçam ===
+*.dll
+*.assets
+*.resS
+*.resource
+*.unity3d
+*.bundle
+!translations/**          # garante que os catálogos de tradução nunca sejam ignorados
+
+# === Python ===
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# === .NET (tool C# da DLL) ===
+tools/dll-tool/bin/
+tools/dll-tool/obj/
+
+# === Sistema / editores ===
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# === Backups ===
+*.bak
+*.orig
